@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <form>
+
+    <div class="form-group row mb-3">
+      <label class="col-lg-2 col-form-label" for="valid-input">
+        Email
+      </label>
+
+      <div class="col-lg-10">
+        <input
+          type="email"
+          class="form-control is-valid"
+          id="valid-input"
+          placeholder="Your username"
+          value="student@example.com"
+          required
+        >
+
+        <div class="valid-feedback">
+          Nice!
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="form-group row mb-3">
+      <label class="col-lg-2 col-form-label" for="invalid-input">
+        Password
+      </label>
+
+      <div class="col-lg-10">
+        <input
+          type="intur your password"
+          class="form-control is-invalid"
+          id="invalid-input"
+          placeholder="Enter Your password"
+          required
+        >
+
+        <div class="invalid-feedback">
+          you must enter your password
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="form-floating mb-3">
+      <select
+        class="form-select"
+        id="floatingSelect"
+        aria-label="Floating label select example"
+      >
+        <option selected>choose a modul</option>
+        <option value="1">Web Development</option>
+        <option value="2">Networking</option>
+        <option value="3">Construction Works</option>
+      </select>
+
+      <label for="floatingSelect">select modul</label>
+    </div>
+
+   
+
+  </form>
+</div>
+
+
+</body>
+</html>
